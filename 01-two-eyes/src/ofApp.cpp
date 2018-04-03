@@ -4,12 +4,13 @@
 void ofApp::setup(){
     bgOne = ofFloatColor::limeGreen;
     bgTwo = ofFloatColor::mistyRose;
-    circle = Circle(glm::vec2(100, 700), 40., ofFloatColor::green);
+    circle = Circle(glm::vec2(200, 400), 40., ofFloatColor::green);
+    ofEnableAlphaBlending();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    circle.update(2);
 }
 
 //--------------------------------------------------------------
@@ -20,18 +21,20 @@ void ofApp::draw(){
     ofBackgroundGradient(bgOne, bgTwo, OF_GRADIENT_CIRCULAR);
 
     // Draw Two Circles
+    auto x1 = ofGetWidth()/2 - 200;
+    auto x2 = ofGetWidth()/2 + 200;
     ofPushStyle();
     ofSetColor(250,200,100);
-    ofDrawCircle(glm::vec2(500, 500), 30.);
+    ofDrawCircle(glm::vec2(x1, 300), 30.);
     ofPopStyle();
 
     ofPushStyle();
     ofSetColor(100,50,100);
-    ofDrawCircle(glm::vec2(100, 300), 30.);
+    ofDrawCircle(glm::vec2(x2, 300), 30.);
     ofPopStyle();
 
     // Use the Circle class to draw a circle
-    // circle.draw();
+    circle.draw();
 }
 
 //--------------------------------------------------------------

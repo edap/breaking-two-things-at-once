@@ -1,22 +1,45 @@
 # breaking-two-things-at-once
 
-The goal of this course is to give to the students the instruments to explore computational thinking by themselves.
-It is divided in lessons, and each lesson follow these rules:
+### Goals
+The goal of this course is to give to the students the instruments to explore computational thinking.
+It is divided in lessons, and each lesson follows these rules:
 
 - It introduces two topics at time.
-- It pushes the students to make a decision that will influence the outcome of their sketches.
-- It gives to the students references and learning paths to dig the topics further.
-- It gives homeworks, and problems too.
-- It contains subtle repetitions with the previous lessons
+- It pushes the students to take decisions.
+- It recalls the previous lessons.
 
 WIP
-1) classes and ease functions. move a ball. Animation
-2) colors and vectors. The interaction of colors. updating position of object inside a vector
-3)Borders, fake shadows, alpha colors random. GUI
-3)surprise me. Collect images from computer art artworks and replicate them. Use at least: 1 vector container, 1
-mask, fbo accenno, https://forum.openframeworks.cc/t/draw-within-a-cricle/29056/2
-4) Sine, Cosine. From Polar coordinates to Cartesian. Flowers, intro to phyllotaxis
-5a) Make music. Principle of sound. intro to Maximilian
-5) random walker and noise
+
+
+### Lessons
+
+1) Bouncing eyes.
+Principle of OOP and ease functions.
+Animate two circles, add and addon, add a GUI.
+
+2) Memories of colors.
+The interaction of colors.
+Updating the position of an object inside a vector
+
+3) Full and empty, inside and outside the borders.
+Borders, fake shadows, alpha colors random.
+
+3)A Dadaist collage.
+Alpha Masking, FBOs
+
+4) Trigonometry and Phyllotaxis
+Sine, Cosine. From Polar coordinates to Cartesian. Flowers, intro to phyllotaxis
+
+5) Algopaper.
+Write your algorithm on a piece of paper using just plain english sentences. Do not write more than 5 lines. Pass your algorithm to the classmate sitting near you, he/she will have to implement it. Do not try to be too clever ;)
+Lines. ofPath, ofPolylines
+
+5) Noise.
+
+ofNode
+
 6) Use the Force
+
 7) All together, flocking behaviour
+
+

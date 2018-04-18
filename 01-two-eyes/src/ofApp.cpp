@@ -4,7 +4,7 @@
 void ofApp::setup(){
     bgOne = ofFloatColor::limeGreen;
     bgTwo = ofFloatColor::mistyRose;
-    circle = Circle(glm::vec2(200, 400), 40., ofFloatColor::green);
+    circle = Circle(glm::vec2(200, 400), 40., ofFloatColor::fuchsia);
     ofEnableAlphaBlending();
 }
 

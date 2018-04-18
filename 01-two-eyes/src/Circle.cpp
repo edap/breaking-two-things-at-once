@@ -10,7 +10,7 @@ Circle::Circle(glm::vec2 _pos, float _radius,ofColor _color){
 
 void Circle::draw(){
     ofPushStyle();
-    ofSetColor(color.r, color.g, color.b);
+    ofSetColor(color.r, color.g, color.b, 150);
     ofDrawCircle(pos, radius);
     ofPopStyle();
 }

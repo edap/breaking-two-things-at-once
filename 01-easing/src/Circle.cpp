@@ -37,4 +37,8 @@ void Circle::update(float speed){
     pos.y += speed * yDir;
 }
 
+void Circle::updatePosition(glm::vec2 _pos){
+    pos = _pos;
+}
+
 

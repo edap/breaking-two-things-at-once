@@ -3,14 +3,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    bgOne = ofFloatColor::limeGreen;
-    bgTwo = ofFloatColor::mistyRose;
-    // try to pass other arguments to the Circle constructor.
-    circle = Circle(glm::vec2(200, 400), 40., ofFloatColor::fuchsia);
-    ofDisableAlphaBlending(); // What happen if you remove this line? observe
-    // carefully the colors of your application.
-
     positions.resize(5);
+    circles.resize(5);
     initTime = 0;
     endPosition = ofGetWidth() - 40;
 
@@ -26,10 +20,7 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    circle.update(2);
-
-
-    auto duration = 1.f;
+    auto duration = 1.f; // try to change the duration
     auto endTime = initTime + duration;
     auto now = ofGetElapsedTimef();
     positions[0] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::linear::easeIn);
@@ -42,48 +33,31 @@ void ofApp::update(){
     positions[4] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::back::easeOut_s, 0.8);
 
 
+    // Have a look at the addon, there are others easing function available
+    // try a different one
+
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
-    /*
-    /// Try differents background.
-    /// - Circular: `OF_GRADIENT_CIRCULAR`
-    /// - Linear: `OF_GRADIENT_LINEAR`
-    /// - Bar: `OF_GRADIENT_BAR`
-    ofBackgroundGradient(bgOne, bgTwo, OF_GRADIENT_CIRCULAR);
-
-    // Draw Two Circles
-    auto x1 = ofGetWidth()/2 - 200;
-    auto x2 = ofGetWidth()/2 + 200;
-    ofPushStyle();
-    ofSetColor(250,200,100);
-    ofDrawCircle(glm::vec2(x1, 300), 300.);
-    ofPopStyle();
-
-    ofPushStyle();
-    ofSetColor(100,50,100);
-    ofDrawCircle(glm::vec2(x2, 300), 30.);
-    ofPopStyle();
-
-    // Use the Circle class to draw a circle
-    circle.draw();
-    */
-
-
     ofSetColor(255);
     auto h = 20;
     auto y = 20;
     auto i = 0;
+    // try to change the colors of the ball
     for(auto & x: positions){
-        ofDrawRectangle(0, y, x, h);
+        // in this case, the updatePosition method is moving the ball from
+        // left to right.
+        // can you imagine other ways to move the balls reading the values
+        // contained in the positions vector?
+        circles[i].updatePosition(glm::vec2(x, y));
+        circles[i].draw();
         ofDrawBitmapString(easingNames[i], 10, y+h*1.6);
         y+=h*2;
         i++;
     }
 
-    ofSetColor(200);
+    ofSetColor(255, 0, 0);
     ofDrawLine(endPosition, 0, endPosition, ofGetHeight());
 
 

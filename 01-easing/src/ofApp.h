@@ -31,6 +31,7 @@ class ofApp : public ofBaseApp{
 
     // easing
     std::vector<float> positions;
+    std::vector<Circle> circles;
     std::vector<std::string> easingNames;
     float initTime;
     float endPosition;

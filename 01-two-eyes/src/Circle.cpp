@@ -1,6 +1,6 @@
 #include "Circle.h"
 
-Circle::Circle(){} // what happens if you remove this line? can you explain why?
+Circle::Circle(){} //what happens if you remove this line? can you explain why?
 
 Circle::Circle(glm::vec2 _pos, float _radius,ofColor _color){
     pos = _pos;
@@ -12,6 +12,12 @@ void Circle::draw(){
     ofPushStyle();
     ofSetColor(color.r, color.g, color.b, 150);
     ofDrawCircle(pos, radius);
+//    ofDrawEllipse()
+//    ofDrawLine()
+//    ofDrawRectangle()
+//    ofDrawString()
+//    ofDrawTriangle()
+    //ofDrawLine(pos.x, pos.y, 0, pos.x+20, pos.y+20, 0);
     ofPopStyle();
 }
 

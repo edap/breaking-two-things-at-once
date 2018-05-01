@@ -1,43 +1,48 @@
 #include "ofApp.h"
+#include "ofxEasing.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    bgOne = ofColor(0, 0, 255);
-    bgTwo = ofFloatColor::crimson;
-    // try to pass other arguments to the Circle constructor.
-    circle = Circle(glm::vec2(200, 400), 90., ofFloatColor::fuchsia);
-    //ofDisableAlphaBlending(); // What happen if you remove this line? observe
-    // carefully the colors of your application.
+    ofSetBackgroundColor(ofFloatColor::ivory);
+
+    palette.insert(make_pair(1, ofColor(1,77,189)));
+    palette.insert(make_pair(2, ofColor(3,150,170)));
+    palette.insert(make_pair(3, ofColor(240,195,4)));
+    palette.insert(make_pair(4, ofColor(226,141,206)));
+
+    for (int i = 0; i<nCircles; i++) {
+        auto randKey = ofRandom(1,5);
+        auto color = palette[randKey];
+
+        auto randomPos = glm::vec2(ofRandom(0, ofGetWidth()), ofRandom(0, ofGetHeight()));
+        auto randomRadius = ofRandom(10, 60);
+        auto c = Circle(randomPos, randomRadius, color);
+
+        circles.push_back(c);
+    }
+
+    initTime = 0;
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    circle.update(2);
+    auto duration = 10.f; // try to change the duration
+    auto endTime = initTime + duration;
+    auto now = ofGetElapsedTimef();
+    float pct = ofxeasing::map_clamp(now, initTime, endTime, 0, 1, &ofxeasing::bounce::easeOut);
+
+    cout << pct << endl;
+    for (auto &c:circles) {
+        c.update(pct);
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    /// Try differents background.
-    /// - Circular: `OF_GRADIENT_CIRCULAR`
-    /// - Linear: `OF_GRADIENT_LINEAR`
-    /// - Bar: `OF_GRADIENT_BAR`
-    ofBackgroundGradient(bgOne, bgTwo, OF_GRADIENT_LINEAR);
-
-    // Draw Two Circles
-    auto x1 = ofGetWidth()/2 - 200;
-    auto x2 = ofGetWidth()/2 + 200;
-    ofPushStyle();
-    ofSetColor(250,200,100);
-    ofDrawCircle(glm::vec2(x1, 300), 300.);
-    ofPopStyle();
-
-    ofPushStyle();
-    ofSetColor(0,250,100, 100);
-    ofDrawCircle(glm::vec2(x2, 300), 100.);
-    ofPopStyle();
-
-    // Use the Circle class to draw a circle
-    circle.draw();
+    for (auto c:circles) {
+        c.draw();
+        //cout << c.getPos() << endl;
+    }
 }
 
 //--------------------------------------------------------------
@@ -67,7 +72,15 @@ void ofApp::mousePressed(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    for (int i = 0; i<circles.size(); i++) {
+        circles[i].setNewTarget(
+                                  glm::vec2(
+                                          ofRandom(x - proximity, x + proximity),
+                                          ofRandom(y - proximity, y + proximity)
+                                          )
+                                  );
+    }
+    initTime = ofGetElapsedTimef();
 }
 
 //--------------------------------------------------------------

@@ -26,15 +26,15 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    auto duration = 10.f; // try to change the duration
-    auto endTime = initTime + duration;
-    auto now = ofGetElapsedTimef();
-    float pct = ofxeasing::map_clamp(now, initTime, endTime, 0, 1, &ofxeasing::bounce::easeOut);
-
-    cout << pct << endl;
-    for (auto &c:circles) {
-        c.update(pct);
-    }
+//    auto duration = 10.f; // try to change the duration
+//    auto endTime = initTime + duration;
+//    auto now = ofGetElapsedTimef();
+//    float pct = ofxeasing::map_clamp(now, initTime, endTime, 0, 1, &ofxeasing::bounce::easeOut);
+//
+//    cout << pct << endl;
+//    for (auto &c:circles) {
+//        c.update(pct);
+//    }
 }
 
 //--------------------------------------------------------------

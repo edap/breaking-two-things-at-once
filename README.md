@@ -34,8 +34,8 @@ WIP
 - Topics: Lines and noise.
 - Sine and Cosine, Perlin Noise, how to modulate waves, how to draw lines with `ofPolyline`, 
 
-#### 4 Write from Arduino
+#### 4 Arduino writes letters to the monitor.
 - Topics: Arduino and Fonts. 
-- Description: How to read the input from arduino to change the text in the OF application.
+- Description: How to read the input from arduino to change the text displayed in the OF application.
 
 

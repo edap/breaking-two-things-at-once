@@ -30,11 +30,11 @@ WIP
 - Description: Position, acceleration and velocity. How to move objects towards a direction, how to make sounds, how to read the input of a microphone. 
 - References: `examples/sound/audioInputExamples`
 
-#### 3 Waves of lines.
+#### 4 Waves of lines.
 - Topics: Lines and noise.
 - Sine and Cosine, Perlin Noise, how to modulate waves, how to draw lines with `ofPolyline`, 
 
-#### 4 Arduino writes letters to the monitor.
+#### 5 Arduino writes letters to the monitor.
 - Topics: Arduino and Fonts. 
 - Description: How to read the input from arduino to change the text displayed in the OF application.
 

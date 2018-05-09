@@ -5,6 +5,7 @@
 void ofApp::setup(){
     positions.resize(5);
     circles.resize(5);
+
     initTime = 0;
     endPosition = ofGetWidth() - 40;
 
@@ -23,7 +24,15 @@ void ofApp::update(){
     auto duration = 1.f; // try to change the duration
     auto endTime = initTime + duration;
     auto now = ofGetElapsedTimef();
-    positions[0] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::linear::easeIn);
+    positions[0] = ofxeasing::map_clamp(now,
+                                        initTime,
+                                        endTime,
+                                        0,
+                                        endPosition,
+                                        &ofxeasing::linear::easeIn);
+
+
+
     positions[1] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::quad::easeIn);
     positions[2] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::cubic::easeIn);
     positions[3] = ofxeasing::map_clamp(now, initTime, endTime, 0, endPosition, &ofxeasing::bounce::easeOut);

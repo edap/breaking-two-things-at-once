@@ -24,7 +24,7 @@ private:
     float radius=13.6;
     ofColor color;
 
-    float seed = 1;
-    float xDir = 1;
-    float yDir = 1;
+//    float seed = 1;
+//    float xDir = 1;
+//    float yDir = 1;
 };

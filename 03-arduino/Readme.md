@@ -6,7 +6,7 @@ Running this example requires uploading Firmata to your Arduino. With your Ardui
 
 
 Connect a Potentiometer to Arduino as showed in this picture
-![img](/bin/data/potentiometer.jpg)
+![img](bin/data/potentiometer.jpg)
 
 Run the sketch, using the potentiometer you should be able to add some noise to the picture.
 

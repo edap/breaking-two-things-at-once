@@ -22,6 +22,7 @@ xcuserdata
 *.xcworkspace
 
 #QtCreator TODO
+*-Debug/
 
 #Visual Studio
 *.sdf

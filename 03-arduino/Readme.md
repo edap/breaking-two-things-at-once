@@ -10,7 +10,7 @@ Connect a Potentiometer to Arduino as showed in this picture
 
 Run the sketch, using the potentiometer you should be able to add some noise to the picture.
 
-### What did you lear?
+### What did you learn?
 
 How to connect an openFrameworks application to the arduino board.
 

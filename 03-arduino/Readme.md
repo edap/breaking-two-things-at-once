@@ -8,9 +8,12 @@ Running this example requires uploading Firmata to your Arduino. With your Ardui
 Connect a Potentiometer to Arduino as showed in this picture
 ![img](bin/data/potentiometer.jpg)
 
-Run the sketch, using the potentiometer you should be able to add some noise to the picture.
+Run the openFrameworks application, using the potentiometer you should be able to add some noise to the picture.
 
-### What did you lear?
+![img](bin/data/no-noise.png)
+![img](bin/data/noise.png)
+
+### What did you learn?
 
 How to connect an openFrameworks application to the arduino board.
 

@@ -27,6 +27,7 @@ class ofApp : public ofBaseApp{
     ofColor bgTwo;
 
     Circle circle;
+    Circle circle2;
 };
 
 //Types, background

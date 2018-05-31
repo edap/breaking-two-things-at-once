@@ -23,7 +23,8 @@ xcuserdata
 
 #QtCreator TODO
 *-Debug/
-03-arduino/bin/*_debug
+*/*/*_debug
+*.qbs.user
 
 #Visual Studio
 *.sdf

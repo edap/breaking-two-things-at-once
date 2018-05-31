@@ -5,7 +5,8 @@ void ofApp::setup(){
     bgOne = ofColor(0, 0, 255);
     bgTwo = ofFloatColor::crimson;
     // try to pass other arguments to the Circle constructor.
-    circle = Circle(glm::vec2(200, 400), 90., ofFloatColor::fuchsia);
+    circle = Circle(glm::vec2(200, 400), 200., ofFloatColor::fuchsia);
+    circle2 = Circle(glm::vec2(ofGetWidth()/2 - 200, 300), 300., ofColor(250,200,100));
     //ofDisableAlphaBlending(); // What happen if you remove this line? observe
     // carefully the colors of your application.
 }
@@ -23,21 +24,9 @@ void ofApp::draw(){
     /// - Bar: `OF_GRADIENT_BAR`
     ofBackgroundGradient(bgOne, bgTwo, OF_GRADIENT_LINEAR);
 
-    // Draw Two Circles
-    auto x1 = ofGetWidth()/2 - 200;
-    auto x2 = ofGetWidth()/2 + 200;
-    ofPushStyle();
-    ofSetColor(250,200,100);
-    ofDrawCircle(glm::vec2(x1, 300), 300.);
-    ofPopStyle();
-
-    ofPushStyle();
-    ofSetColor(0,250,100, 100);
-    ofDrawCircle(glm::vec2(x2, 300), 100.);
-    ofPopStyle();
-
     // Use the Circle class to draw a circle
     circle.draw();
+    circle2.draw();
 }
 
 //--------------------------------------------------------------

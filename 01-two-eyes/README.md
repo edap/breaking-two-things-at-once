@@ -18,6 +18,8 @@ Make a compelling composition just playing with the background color, the color 
 
 Read the `Intro to graphics` chapter linked in the references.
 
+Breake the app removing a parenthesis. Which kind of error do you receive? What happens if you remove a variable defined in your header file? which kind of error do you have? Take note of these errors, keep a collection of errors while following the exercises. It will be really helpful to consult this list when running into troubles. 
+
 
 ### References
 

@@ -1,7 +1,7 @@
 #include "ofApp.h"
 #include "ofxEasing.h"
 
-//--------------------------------------------------------------
+//This example is copied from that one in the ofxEasing repository
 void ofApp::setup(){
     positions.resize(5);
     circles.resize(5);

@@ -10,6 +10,7 @@ void ofApp::update(){
 }
 
 void ofApp::draw(){
+    ofBackground(ofFloatColor::coral);
     ofEnableAlphaBlending();
 
 
@@ -29,7 +30,7 @@ void ofApp::mouseDragged(int x, int y, int button){
         if (dist < 30){
             Line lineTemp;
 
-            float hue = ofMap(dist, 0, 30, 100, 255);
+            float hue = ofMap(dist, 0, 30, 0, 200);
             ofColor c = ofColor::fromHsb(hue, 200, 255);
             lineTemp.color = c;
     

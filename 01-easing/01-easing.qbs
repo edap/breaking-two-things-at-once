@@ -16,7 +16,7 @@ Project{
             'src/ofApp.cpp',
             'src/ofApp.h',
             'src/Circle.h',
-             'src/Circle.cpp',
+            'src/Circle.cpp',
         ]
 
         // This project is using addons.make to include the addons
@@ -25,7 +25,7 @@ Project{
         // the list of used addons in array format. eg:
         //
          of.addons: [
-             'ofxEasing',
+             'ofxEasing'
          ]
 
         // additional flags for the project. the of module sets some
@@ -65,6 +65,10 @@ Project{
     property bool makeOF: true  // use makfiles to compile the OF library
     // will compile OF only once for all your projects
     // otherwise compiled per project with qbs
+
+    property bool precompileOfMain: false  // precompile ofMain.h
+    // faster to recompile when including ofMain.h
+    // but might use a lot of space per project
 
     references: [FileInfo.joinPaths(of_root, "/libs/openFrameworksCompiled/project/qtcreator/openFrameworks.qbs")]
 }

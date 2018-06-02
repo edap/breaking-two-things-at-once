@@ -16,6 +16,8 @@ Check the documentation about [graphics](https://openframeworks.cc/documentation
 
 Make a compelling composition just playing with the background color, the color of the objects and the transparencies.
 
+Read the `Intro to graphics` chapter linked in the references.
+
 
 ### References
 [The Interaction of Colors](https://www.goodreads.com/book/show/111113.Interaction_of_Color) by Joseph Albers.

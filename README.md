@@ -17,8 +17,9 @@ WIP
 ### Lessons
 
 #### 1 Bouncing eyes.
-- Topics: Principle of [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) and [easing functions](http://easings.net/).
-- Description: Intro to c++, intro to classes, objects, properties and methods. Intro to openFrameworks and the main loop. How to create an object, what is a constructor, how to move it using easing functions.
+
+- [Two eyes](https://github.com/edap/breaking-two-things-at-once/tree/master/01-two-eyes)
+- [Easing](https://github.com/edap/breaking-two-things-at-once/tree/master/01-easing)
 
 #### 2 C&C, AKA Containers and Colors.
 - Topics: The c++ vector container and the RGB and HSB color spaces.

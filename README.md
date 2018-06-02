@@ -25,14 +25,14 @@ WIP
 - [Vectors and Color Palette](https://github.com/edap/breaking-two-things-at-once/tree/master/02-vectors)
 
 
-#### 3 Image distorsion using Arduino.
-- [How to build an image distorsion tool with OF and Arduino](https://github.com/edap/breaking-two-things-at-once/tree/master/03-arduino) 
+#### 3 Waves of lines.
+- [a drawing lines app](https://github.com/edap/breaking-two-things-at-once/tree/master/03-lines)
 
-#### 4 Waves of lines.
-- [a drawing lines app](https://github.com/edap/breaking-two-things-at-once/tree/master/02-lines)
+#### 4 Image distorsion using Arduino.
+- [How to build an image distorsion tool with OF and Arduino](https://github.com/edap/breaking-two-things-at-once/tree/master/04-arduino) 
 
 #### 5 It sounds like 3D.
-- [Belling planets](https://github.com/edap/breaking-two-things-at-once/tree/master/04-planets)
+- [Belling planets](https://github.com/edap/breaking-two-things-at-once/tree/master/05-planets)
 
 
 

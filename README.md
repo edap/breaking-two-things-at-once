@@ -31,10 +31,8 @@ WIP
 #### 4 Waves of lines.
 - [a drawing lines app](https://github.com/edap/breaking-two-things-at-once/tree/master/02-lines)
 
-#### 5 Move towards the bell.
-- Topics: 2D vectors and sound
-- Description: Position, acceleration and velocity. How to move objects towards a direction, how to make sounds, how to read the input of a microphone. 
-- References: `examples/sound/audioInputExamples`
+#### 5 It sounds like 3D.
+- [Belling planets](https://github.com/edap/breaking-two-things-at-once/tree/master/04-planets)
 
 
 

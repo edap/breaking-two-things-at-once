@@ -32,6 +32,9 @@ Can you imagine another kind of interaction using the digital input?
 
 Could you edit the position of the vertices contained in an `ofPolyline` using the analog input?
 
+### Credits
+Distorsion algorithm by [Yunk yoshi](http://junkiyoshi.com/insta20180505)
+
 
 
 

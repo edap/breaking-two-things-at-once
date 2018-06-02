@@ -2,12 +2,12 @@
 Lines and noise
 
 ### Description
-This app uses the mouse interaction to collect points. This points are stored in an `ofPolyine` object
+This app uses the mouse interaction to collect points. These points are stored in an `ofPolyine` object.
 
 ![img](bin/data/screenshot.png)
 
 ### What did you learn
-How to use `ofPolyline` to draw a line. How to add new elements on it. After the exercises and the lesson in class, you will have a solid understanding of what noise and random are.
+How to use `ofPolyline` to draw a line. How to add new elements to it. After the exercises and the lesson in class, you will have a solid understanding of what noise and random are.
 
 
 ### Exercise(s)
@@ -22,3 +22,6 @@ Check these 3 examples:
 - [noised circles](http://junkiyoshi.com/insta20180602/)
 
 Make an application that draw lines, circles or whatever you want, using the `ofSignedNoise` function.
+
+### Credits
+This app comes from the repository [VAW_workshop](https://github.com/ofZach/VAW_workshop/tree/master/drawingWorkshop), by Zach Lieberman.

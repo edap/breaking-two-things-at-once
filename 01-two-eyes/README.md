@@ -12,3 +12,9 @@ The openFrameworks loop, `setup`, `update` and `draw`. What is a class, why it i
 Create a color using `ofColor` or `ofFloatColor::red`. How to draw a circle using `ofDrawCircle`, what is a vector and which are its properties. Transparencies, t
 
 ### Exercise(s)
+Check the documentation about [graphics](https://openframeworks.cc/documentation/graphics/) and try to draw others forms instead of circle. Create a class for this forms.
+
+Make a compelling composition just playing with the background color, the color of the objects and the transparencies.
+
+### References
+[The Interaction of Colors](https://www.goodreads.com/book/show/111113.Interaction_of_Color) by Joseph Albers.

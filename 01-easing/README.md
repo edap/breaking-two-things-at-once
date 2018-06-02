@@ -11,8 +11,6 @@ How to use easing equation to move things around. What is an addon, how to add i
 In the example, the updatePosition method moves the ball from left to right.
 Can you imagine other ways to move the balls reading the values contained in the positions vector?
 
-Try to make the application more colorful. Read this [article](https://www.patreon.com/posts/colors-colors-18611429?utm_medium=social&utm_source=twitter&utm_campaign=postshare) about colors by [Manoloide](https://twitter.com/manoloidee)
-
 Read the article linked in the references.
 
 ### References

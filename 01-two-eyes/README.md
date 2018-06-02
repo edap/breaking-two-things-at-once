@@ -12,7 +12,7 @@ The openFrameworks loop, `setup`, `update` and `draw`. What is a class, why it i
 Create a color using `ofColor` or `ofFloatColor::red`. How to draw a circle using `ofDrawCircle`, what is a vector and which are its properties. How to move a things around using a vector.
 
 ### Exercise(s)
-Check the documentation about [graphics](https://openframeworks.cc/documentation/graphics/) and try to draw others forms instead of circle. Create a class for this forms.
+Check the documentation about [graphics](https://openframeworks.cc/documentation/graphics/) and try to draw others forms instead of  a circle. Create a class for this forms.
 
 Make a compelling composition just playing with the background color, the color of the objects and the transparencies.
 

@@ -20,6 +20,5 @@ Read the `Intro to graphics` chapter linked in the references.
 
 
 ### References
-[The Interaction of Colors](https://www.goodreads.com/book/show/111113.Interaction_of_Color) by Joseph Albers.
 
 [Intro to graphics](https://openframeworks.cc/ofBook/chapters/intro_to_graphics.html)

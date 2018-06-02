@@ -32,11 +32,11 @@ public:
     ofSpherePrimitive sphere3;
 
     ofNode nullNode;
-    ofNode opaNode;
-
     ofPolyline line;
+    bool applyScaling;
 
     //sound
     ofSoundPlayer dog;
-     ofSoundPlayer bird;
+    ofSoundPlayer bird;
+    ofSoundPlayer rooster;
 };

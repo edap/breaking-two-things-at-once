@@ -26,8 +26,7 @@ WIP
 
 
 #### 3 Image distorsion using Arduino.
-- Topics: Arduino and ofPixels. 
-- Description: How to read the input from arduino to change pixels contained in an image.
+- [How to build and Arduino image distorsion tool](https://github.com/edap/breaking-two-things-at-once/tree/master/03-arduino) 
 
 #### 4 Waves of lines.
 - Topics: Lines and noise.

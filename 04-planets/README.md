@@ -8,8 +8,7 @@ In these apps three planets turn around each other an make sounds.
 ![img](bin/data/screenshot.png)
 
 ### What did you learn
-What are the elements that you need to draw a 3D scene, what is an `ofMaterial` and which parameter it accepts. What is a graph scene, what is an `ofNode` and how is it possible to chain objects together.
-How to play sounds
+What are the elements that you need to draw a 3D scene, what is an `ofMaterial` and which parameter it accepts. What is a graph scene, what is an `ofNode` and how is it possible to chain objects together. How to play sounds.
 
 ### Exercise(s)
 - check the example `examples/3D/Primitive3D` and make an app that uses other primitives than the sphere

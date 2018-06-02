@@ -22,3 +22,6 @@ Check these 3 examples:
 - [noised circles](http://junkiyoshi.com/insta20180602/)
 
 Make an application that draw lines, circles or whatever you want, using the `ofSignedNoise` function.
+
+### Credits
+This app comes from the repository [VAW_workshop](https://github.com/ofZach/VAW_workshop/tree/master/drawingWorkshop), by Zach Lieberman.

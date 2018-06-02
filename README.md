@@ -26,7 +26,7 @@ WIP
 
 
 #### 3 Image distorsion using Arduino.
-- [How to build and Arduino image distorsion tool](https://github.com/edap/breaking-two-things-at-once/tree/master/03-arduino) 
+- [How to build an image distorsion tool with OF and Arduino](https://github.com/edap/breaking-two-things-at-once/tree/master/03-arduino) 
 
 #### 4 Waves of lines.
 - Topics: Lines and noise.

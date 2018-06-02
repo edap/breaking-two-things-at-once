@@ -1,3 +1,8 @@
+### Topics
+Arduino and ofPixels
+
+### Description
+
 This sketch it is based on the example `examples/communication/firmataExample`.
 
 This Example demonstrates communication with Arduino using the Firmata protocol.

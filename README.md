@@ -22,11 +22,10 @@ WIP
 - [Easing](https://github.com/edap/breaking-two-things-at-once/tree/master/01-easing)
 
 #### 2 C&C, AKA Containers and Colors.
-- Topics: The c++ vector container and the RGB and HSB color spaces.
-- Description: How to add and edit elements in a container, how to create colors in RGB and HSB, how to define a palette of colors, how to animate the element in a container. What is a GUI? how to add it to a sketch and why it is useful. What is an addon? how can I add it to an OF application?
-- References, Josef Albers, "The Interaction of Colors"
+- [Vectors and Color Palette](https://github.com/edap/breaking-two-things-at-once/tree/master/02-vectors)
 
-#### 3 How to distort an image using Arduino.
+
+#### 3 Image distorsion using Arduino.
 - Topics: Arduino and ofPixels. 
 - Description: How to read the input from arduino to change pixels contained in an image.
 

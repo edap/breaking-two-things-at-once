@@ -11,7 +11,7 @@ Take paper and pencil and write a set of instruction for your computer.
 
 
 - Iteration n.1
-You can draw just lines and circles. To move around, use your the update method.
+You can draw just lines and circles. To move around, use your the `moveTo` method.
 
 
 - Iteration n.2

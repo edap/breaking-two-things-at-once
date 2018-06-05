@@ -19,10 +19,10 @@ You can draw just lines, circles and boxes. To move around, use your the `moveTo
 You can draw also the history of your 300 position. See `drawHistory` and `addToHistory`. The history of your pen is just an `ofPolyline`, we already did something [similar](edap/breaking-two-things-at-once/tree/master/03-lines).
 
 - Iteration n.3
-You can also use sin and cos of ofTimeGetElapsedTimef to change the variables that define the positions of what you want to draw.
+Add sin and/or cos of ofTimeGetElapsedTimef to your sketch. Change amplitude and frequency.
 
 - Iteration n.4
-You can use also use `ofRandom` and `ofSetFill` for your circles.
+You can use also use `ofRandom`, `ofMap` and `ofSetFill` for your circles.
 
 - Iteration n.5
 Add a mouse interaction and/or a keystroke interaction.

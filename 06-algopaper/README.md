@@ -9,13 +9,14 @@ Oxford dictionaries
 
 Take paper and pencil and write a set of instruction for your computer.
 
+No colors, just black and white. Focus on lines and forms for now.
 
 - Iteration n.1
-You can draw just lines and circles. To move around, use your the `moveTo` method.
+You can draw just lines, circles and boxes. To move around, use your the `moveTo` method.
 
 
 - Iteration n.2
-you can draw the history of your 300 position. See `drawHistory` and `addToHistory`
+You can draw also the history of your 300 position. See `drawHistory` and `addToHistory`. The history of your pen is just an `ofPolyline`, we already did something [similar](edap/breaking-two-things-at-once/tree/master/03-lines).
 
 - Iteration n.3
 You can also use sin and cos of ofTimeGetElapsedTimef to change the variables that define the positions of what you want to draw.
@@ -25,6 +26,9 @@ You can use also use `ofRandom` and `ofSetFill` for your circles.
 
 - Iteration n.5
 Add a mouse interaction and/or a keystroke interaction.
+
+- Iteration n.6
+You can use multiple pens. Even a [vector](/edap/breaking-two-things-at-once/tree/master/02-vectors) of pen.
 
 ## What did you learn
 To sketch and prototype an idea on paper. To move using directions.

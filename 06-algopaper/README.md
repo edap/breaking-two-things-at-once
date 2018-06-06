@@ -42,3 +42,5 @@ To sketch and prototype an algorithm on paper. Vector operation and forces.
 [The recode project](http://recodeproject.com/)
 
 [The nature of code, forces](http://natureofcode.com/book/chapter-2-forces/)
+
+[Algo course by Zach Lieberman](https://github.com/edap/algo2012), just clone the repo and try out some apps.

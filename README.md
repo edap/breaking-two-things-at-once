@@ -34,6 +34,9 @@ WIP
 #### 5 It sounds like 3D.
 - [Belling planets](https://github.com/edap/breaking-two-things-at-once/tree/master/05-planets)
 
+#### 6 Algopaper.
+- [Algopaper](https://github.com/edap/breaking-two-things-at-once/tree/master/06-algopaper)
+
 
 
 

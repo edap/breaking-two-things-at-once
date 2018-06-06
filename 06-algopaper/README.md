@@ -32,4 +32,13 @@ Add a mouse interaction and/or a keystroke interaction.
 You can use multiple pens. Even a [vector](/edap/breaking-two-things-at-once/tree/master/02-vectors) of pen.
 
 ## What did you learn
-To sketch and prototype an algorithm on paper. To move using directions.
+To sketch and prototype an algorithm on paper. Vector operation and forces.
+
+
+## References
+
+[Vera Molnar art](https://github.com/ofZach/dayForNightSFPC/wiki/Vera-Molnar)
+
+[The recode project](http://recodeproject.com/)
+
+[The nature of code, forces](http://natureofcode.com/book/chapter-2-forces/)

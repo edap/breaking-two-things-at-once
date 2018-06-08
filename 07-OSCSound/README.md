@@ -23,7 +23,7 @@ Making sound with Sonic PI and openFrameworks.
 ![img](bin/data/screenshot.png)
 
 ### What did you learn
-How to use the OSC protocol to "talk" with other applications, what is a synthesizer and what does it mean "ADSR", what is
+How to use the OSC protocol to "talk" with other applications, what is a synthesizer and what does it mean "ADSR".
 
 ### Exercise
 - Make a short animation with images, color and sound.

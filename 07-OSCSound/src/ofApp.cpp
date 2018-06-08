@@ -13,8 +13,8 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    float sintime = sin(ofGetElapsedTimef() * 2.0);
-    float cosTime = cos(ofGetElapsedTimef() * 2.0);
+    float sintime = sin(ofGetElapsedTimef() * 3.0);
+    float cosTime = cos(ofGetElapsedTimef() * 3.0);
     radiusTwo = radiusOne*0.7 + sintime * radiusOne*0.3;
     radiusThree = radiusTwo*0.4 + cosTime * radiusTwo*0.6;
     radiusFour = radiusThree*0.2 + sintime * radiusThree*0.8;

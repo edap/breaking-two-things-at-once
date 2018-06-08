@@ -16,7 +16,7 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-        void sendOSC();
+        void sendOSC(int note); // notes goes from 0 to 70
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -34,4 +34,6 @@ class ofApp : public ofBaseApp{
 
     float radiusOne;
     float radiusTwo;
+    float radiusThree;
+    float radiusFour;
 };

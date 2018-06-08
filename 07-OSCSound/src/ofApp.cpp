@@ -5,13 +5,19 @@ void ofApp::setup(){
     ofSetBackgroundColor(ofFloatColor::yellow);
     radiusOne = ofGetHeight()/2;
     radiusTwo = radiusOne;
+    radiusThree = radiusOne;
+    radiusFour = radiusOne;
 
     sender.setup(HOST, PORT);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    radiusTwo = radiusOne*0.7 + sin(ofGetElapsedTimef() * 3.0)* radiusOne*0.3;
+    float sintime = sin(ofGetElapsedTimef() * 2.0);
+    float cosTime = cos(ofGetElapsedTimef() * 2.0);
+    radiusTwo = radiusOne*0.7 + sintime * radiusOne*0.3;
+    radiusThree = radiusTwo*0.4 + cosTime * radiusTwo*0.6;
+    radiusFour = radiusThree*0.2 + sintime * radiusThree*0.8;
 
 }
 
@@ -23,17 +29,32 @@ void ofApp::draw(){
     ofSetColor(ofFloatColor::coral);
     ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, radiusTwo);
 
-    auto diff = (radiusOne - radiusTwo);
-    ofLog() << diff;
-    if (diff < 0.09) {
-        sendOSC();
+    ofSetColor(ofFloatColor::greenYellow);
+    ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, radiusThree);
+
+    ofSetColor(ofFloatColor::darkBlue);
+    ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, radiusFour);
+
+    auto diff1 = (radiusOne - radiusTwo);
+    if (diff1 < 0.09) {
+        sendOSC(30);
+    }
+
+    auto diff2 = (radiusTwo - radiusThree);
+    if (diff2 < 0.09) {
+        sendOSC(50);
+    }
+
+    auto diff3 = (radiusThree - radiusFour);
+    if (diff3 < 0.09) {
+        sendOSC(60);
     }
 }
 
-void ofApp::sendOSC(){
+void ofApp::sendOSC(int note){
     ofxOscMessage m;
     m.setAddress("/trigger/prophet");
-    m.addFloatArg(ofRandom(10, 70)); //note
+    m.addFloatArg(note); //note
     m.addFloatArg(0.1); // attach
     m.addFloatArg(0.2); // sustain
     m.addFloatArg(0.1);  //release

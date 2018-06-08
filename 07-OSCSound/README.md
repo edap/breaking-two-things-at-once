@@ -11,7 +11,7 @@ live_loop :foo do
 end
 ```
 
-When you are done, press the play button on the top-left corner of the screen. After that, launch the OF application. When the small circle touches the big one, you should here a sound
+When you are done, press the play button on the top-left corner of the screen. After that, launch the OF application. When the borders of the circle touches, you should here a sound
 
 ### Topics
 OSC, synthesizers basics, geometric forms.

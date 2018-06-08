@@ -12,7 +12,7 @@ Take paper and pencil and write a set of instruction for your computer.
 No colors, just black and white. Focus on lines and forms for now.
 
 - Iteration n.1
-You can draw just lines, circles and boxes. To move around, use your the `moveTo` method.
+You can draw just lines, circles and boxes. Have a look at the Pen class. You do not have to use it, but you can.
 
 
 - Iteration n.2
@@ -29,7 +29,7 @@ Try to add `ofSeedRandom((int)(ofGetElapsedTimef()*5));` before to call `ofRando
 Add a mouse interaction and/or a keystroke interaction.
 
 - Iteration n.6
-You can use multiple pens. Even a [vector](/edap/breaking-two-things-at-once/tree/master/02-vectors) of pen.
+Use [vector]s(/edap/breaking-two-things-at-once/tree/master/02-vectors) of positions or objects.
 
 ## What did you learn
 To sketch and prototype an algorithm on paper. Vector operation and forces.

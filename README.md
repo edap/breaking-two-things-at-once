@@ -37,6 +37,9 @@ WIP
 #### 6 Algopaper.
 - [Algopaper](https://github.com/edap/breaking-two-things-at-once/tree/master/06-algopaper)
 
+#### 7 OSC and sound
+- [OSC and Sonic PI](https://github.com/edap/breaking-two-things-at-once/tree/master/07-OSCSound)
+
 
 
 

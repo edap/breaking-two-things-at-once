@@ -34,5 +34,7 @@ How to use the OSC protocol to "talk" with other applications, what is a synthes
 [Sonic PI and OSC](https://github.com/samaaron/sonic-pi/blob/master/etc/doc/tutorial/12.1-Receiving-OSC.md)
 
 [John Whitney, "Catalog" 1961](https://www.youtube.com/watch?v=TbV7loKp69s)
+
 [John Whitney, matrix 3](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
+
 [John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator))

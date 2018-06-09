@@ -8,7 +8,6 @@ The course is divided in lessons, and each lesson follows these simple rules:
 
 - It introduces two topics at time.
 - It recalls the previous lessons.
-- It suggests different ways to brake and fix the examples applications.
 - It concludes with a final excercise
 
 WIP

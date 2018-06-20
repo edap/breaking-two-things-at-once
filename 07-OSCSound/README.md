@@ -11,7 +11,7 @@ live_loop :foo do
 end
 ```
 
-When you are done, press the play button on the top-left corner of the screen. After that, launch the OF application. When the small circle touches the big one, you should here a sound
+When you are done, press the play button on the top-left corner of the screen. After that, launch the OF application. When the borders of the circle touches, you should here a sound
 
 ### Topics
 OSC, synthesizers basics, geometric forms.
@@ -23,7 +23,7 @@ Making sound with Sonic PI and openFrameworks.
 ![img](bin/data/screenshot.png)
 
 ### What did you learn
-How to use the OSC protocol to "talk" with other applications, what is a synthesizer and what does it mean "ADSR", what is
+How to use the OSC protocol to "talk" with other applications, what is a synthesizer and what does it mean "ADSR".
 
 ### Exercise
 - Make a short animation with images, color and sound.
@@ -34,5 +34,7 @@ How to use the OSC protocol to "talk" with other applications, what is a synthes
 [Sonic PI and OSC](https://github.com/samaaron/sonic-pi/blob/master/etc/doc/tutorial/12.1-Receiving-OSC.md)
 
 [John Whitney, "Catalog" 1961](https://www.youtube.com/watch?v=TbV7loKp69s)
+
 [John Whitney, matrix 3](https://www.youtube.com/watch?v=ZrKgyY5aDvA)
+
 [John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator))

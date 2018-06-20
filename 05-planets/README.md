@@ -3,7 +3,7 @@
 
 ### Description
 
-In these apps three planets turn around each other and make sounds.
+In this app three planets turn around each other and make sounds.
 
 ![img](bin/data/screenshot.png)
 

@@ -8,7 +8,6 @@ The course is divided in lessons, and each lesson follows these simple rules:
 
 - It introduces two topics at time.
 - It recalls the previous lessons.
-- It suggests different ways to brake and fix the examples applications.
 - It concludes with a final excercise
 
 WIP
@@ -36,6 +35,9 @@ WIP
 
 #### 6 Algopaper.
 - [Algopaper](https://github.com/edap/breaking-two-things-at-once/tree/master/06-algopaper)
+
+#### 7 OSC and sound
+- [OSC and Sonic PI](https://github.com/edap/breaking-two-things-at-once/tree/master/07-OSCSound)
 
 
 

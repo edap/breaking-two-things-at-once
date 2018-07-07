@@ -16,7 +16,7 @@ What are the elements that you need to draw a 3D scene, what is an `ofMaterial` 
 - Check the [BBC sound archive](http://bbcsfx.acropolis.org.uk/) and make new sounds.
 - Have a look at the documentation of [ofMaterial](https://openframeworks.cc/documentation/gl/ofMaterial/), in particular to the method:  setDiffuseColor(),setEmissiveColor(),setShininess(),setSpecularColor() and setAmbientColor().  Can you make a specular material? how? can you call this functions on the same material? how does the material change, when you change the color of the light?
 - Add more lights an make them move.
-- Read the article linked in the references. You do not need to understand everything on in at the moment, focus on the first part of it, until "Why -1 to 1?" included
+- Read the article linked in the references. You do not need to read it all, focus on the first part of it, until "Why -1 to 1?" included
 
 ### References
 [ofBook about sound](https://openframeworks.cc/ofBook/chapters/sound.html)

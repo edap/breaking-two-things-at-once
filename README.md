@@ -39,8 +39,8 @@ WIP
 #### 7 OSC and sound
 - [OSC and Sonic PI](https://github.com/edap/breaking-two-things-at-once/tree/master/07-OSCSound)
 
-#### 8 Fonts
-- [Fonts and Pixels](/edap/breaking-two-things-at-once/tree/master/08-Fonts)
+#### 8 Pixelated fonts
+- [Fonts and Pixels](https://github.com/edap/breaking-two-things-at-once/tree/master/08-Fonts)
 
 
 
